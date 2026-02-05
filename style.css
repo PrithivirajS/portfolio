@@ -29,3 +29,14 @@ h1,h2{margin-bottom:15px;}
  border:none;border-radius:30px;background:#fff;color:#000;
  cursor:pointer;font-weight:bold;box-shadow:0 5px 10px rgba(0,0,0,0.3);
 }
+.company-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.company-logo {
+  width: 40px;      /* adjust size if needed */
+  height: auto;
+  border-radius: 6px; /* optional */
+}
